@@ -10,6 +10,9 @@
   },
   "author": "Oleksandr Andriichuk <Dru1DD>",
   "license": "ISC",
+  "engines": {
+    "node": "16.11.0"
+  },
   "dependencies": {
     "@heroku/buildpack-registry": "^1.0.1",
     "@types/moment": "^2.13.0",
