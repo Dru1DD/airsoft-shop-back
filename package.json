@@ -11,7 +11,8 @@
   "author": "Oleksandr Andriichuk <Dru1DD>",
   "license": "ISC",
   "engines": {
-    "node": "16.11.0"
+    "node": "16.11.0",
+    "npm": "8.0.0"
   },
   "dependencies": {
     "@heroku/buildpack-registry": "^1.0.1",
