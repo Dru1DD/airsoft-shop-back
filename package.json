@@ -6,14 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "dev": "nodemon index.js"
   },
   "author": "Oleksandr Andriichuk <Dru1DD>",
   "license": "ISC",
-  "engines": {
-    "node": "^17.3.0"
-  },
   "dependencies": {
     "@types/moment": "^2.13.0",
     "body-parser": "^1.19.1",
